@@ -22,19 +22,12 @@ ENV/
 # ── Dataset (download from Kaggle — not committed) ───────────────────────────
 data/
 
-# ── Generated model artifacts ────────────────────────────────────────────────
+# ── Generated model artifacts (large binaries — not tracked) ────────────────
 *.pkl
 *.joblib
 
-# ── Generated output files ───────────────────────────────────────────────────
-attrition_analysis_results_*.csv
-feature_importance_*.csv
-error_metrics_*.json
-confusion_matrix_*.png
-roc_curve_*.png
-residual_plot_*.png
-actual_vs_predicted_*.png
-feature_importance_plot.png
+# ── Results folder is tracked (CSV, JSON, PNG visible on GitHub) ─────────────
+# results/ is intentionally NOT ignored
 
 # ── OS / IDE ─────────────────────────────────────────────────────────────────
 .DS_Store
